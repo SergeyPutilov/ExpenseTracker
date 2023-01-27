@@ -39,13 +39,13 @@ namespace ExpenseTracker.Controllers
                 return NotFound();
             }
 
-            return View(category);
+            return View(category);  
         }
 
         // GET: Category/Create
         public IActionResult Create()
         {
-            return View();
+            return View(new Category());
         }
 
         // POST: Category/Create
