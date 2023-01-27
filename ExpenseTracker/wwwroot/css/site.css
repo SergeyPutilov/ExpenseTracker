@@ -23,7 +23,7 @@ body {
     font-size: x-large;
 }
 
-/*Radio Button Group*/
+/* Radio Button Group */
 .e-btn-group.custom-rbt-group {
     width: 100%;
 }
@@ -43,4 +43,10 @@ body {
     background-color: #fff;
     color: #212b36;
     border: 1px solid #fff;
+}
+
+/* Widget */
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
 }
