@@ -1,12 +1,13 @@
 ﻿@model ExpenseTracker.Models.Category
 
 @{
-    ViewData["Title"] = "Edit";
+    //ViewData["Title"] = "Edit";
+    ViewData["PageTitle"] = "Edit Category";
 }
 
-<h1>Edit</h1>
+@*<h1>Edit</h1>
 
-<h4>Category</h4>
+<h4>Category</h4>*@
 <hr />
 <div class="row">
     <div class="col-md-7">
@@ -43,9 +44,6 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
